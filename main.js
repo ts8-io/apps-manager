@@ -5,7 +5,7 @@ const {BrowserWindow} = electron;
 let win;
 
 function createWindow() {
-  win = new BrowserWindow({width: 1100, height: 800, icon: `${__dirname}/ts8.ico`});
+  win = new BrowserWindow({width: 1100, height: 800, icon: `${__dirname}/src/assets/icon/ts8.ico`});
   win.loadURL(`file://${__dirname}/index.html`);
 
   // Open the DevTools.
