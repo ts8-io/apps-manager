@@ -1,0 +1,19 @@
+{
+  "name": "ts8-app-manager",
+  "version": "0.0.1",
+  "description": "ts8 App Manager is an open source development GUI interface for creating, editing, and running application during and after development.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ts8-io/apps-manager.git"
+  },
+  "author": "Thomas Brian <github.com/tdbrian>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "electron-prebuilt": "^1.2.8"
+  }
+}
