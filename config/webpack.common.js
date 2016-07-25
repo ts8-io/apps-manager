@@ -7,7 +7,7 @@ const ForkCheckerPlugin = require('awesome-typescript-loader').ForkCheckerPlugin
 const HtmlElementsPlugin = require('./html-elements-plugin');
 
 const METADATA = {
-  title: 'Angular2 Webpack Starter by @gdi2290 from @AngularClass',
+  title: 'ts8 Applications Manager',
   baseUrl: '/',
   isDevServer: helpers.isWebpackDevServer()
 };

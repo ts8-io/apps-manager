@@ -13,6 +13,7 @@ export function main(initialHmrState?: any): Promise<any> {
   .catch(err => console.error(err));
 }
 
+// Wrap bootstrap in Hot Module Reloader for development
 if ('development' === ENV && HMR === true) {
   let ngHmr = require('angular2-hmr');
   ngHmr.hotModuleReplacement(main, module);
